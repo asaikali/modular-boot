@@ -29,11 +29,5 @@ public class MultiModuleFlywayMigrationStrategy implements FlywayMigrationStrate
               .load();
       flywayModule.migrate();
     }
-
-    try {
-      flyway.migrate();
-    } catch (Exception e) {
-      e.printStackTrace();
-    }
   }
 }
