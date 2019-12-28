@@ -12,8 +12,9 @@
 
   <parent>
     <groupId>com.example</groupId>
-    <artifactId>modular-boot</artifactId>
+    <artifactId>parent</artifactId>
     <version>${revision}</version>
+    <relativePath>../parent</relativePath>
   </parent>
 
   <groupId>com.example</groupId>
