@@ -1,13 +1,12 @@
 package com.example.user;
 
 import com.example.Module;
+import javax.sql.DataSource;
 import org.springframework.stereotype.Component;
 
 @Component
-public class UserModule implements Module {
-
-  @Override
-  public String getName() {
-    return "user";
+class UserModule extends Module {
+  UserModule(DataSource dataSource) {
+    super(dataSource, "user");
   }
 }
