@@ -43,7 +43,8 @@ no components with business logic.
 
 * __parent__ location of the parent pom that defines a consistent classpath for all the maven
   modules 
-* __util__ contains a collection of utility classes that don't contain any business logic. 
+* __core__ contains a collection of common classes that don't contain any business logic, all
+  other modules depend on core.
 * __config__ contains all the configuration files required to configure the spring application 
  context. It hosts the `application.yml` files and other cross cutting configuration objects. 
  Maven modules containing business logic depend on config so that they can bootstrap an 
