@@ -19,33 +19,16 @@
 
 
   <groupId>com.example</groupId>
-  <artifactId>email</artifactId>
+  <artifactId>core-test</artifactId>
   <version>${revision}</version>
-  <name>email</name>
-  <description>Email Handling Code</description>
+  <name>core-test</name>
+  <description>core classes used by the rest of the application</description>
 
   <dependencies>
     <dependency>
       <groupId>com.example</groupId>
       <artifactId>core</artifactId>
       <version>${project.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-mail</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.simplejavamail</groupId>
-      <artifactId>simple-java-mail</artifactId>
-      <version>5.5.1</version>
-    </dependency>
-
-    <!-- test scoped dependencies -->
-    <dependency>
-      <groupId>com.example</groupId>
-      <artifactId>core-test</artifactId>
-      <version>${project.version}</version>
-      <scope>test</scope>
     </dependency>
   </dependencies>
 

@@ -1,4 +1,4 @@
-package com.example;
+package com.example.core.db;
 
 import java.util.Objects;
 import javax.sql.DataSource;

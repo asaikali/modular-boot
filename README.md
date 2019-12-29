@@ -45,10 +45,7 @@ no components with business logic.
   modules 
 * __core__ contains a collection of common classes that don't contain any business logic, all
   other modules depend on core.
-* __config__ contains all the configuration files required to configure the spring application 
- context. It hosts the `application.yml` files and other cross cutting configuration objects. 
- Maven modules containing business logic depend on config so that they can bootstrap an 
- application context with autowired dependencies.
+* __core-test__ contains common test fixtures to use for integration testing 
 * __app__ contains the `@SpringBootApplication` class and pulls in all the required modules via
   maven dependencies. it should not have any business logic components but it contains end-to-end
   integration acceptance tests.

@@ -27,7 +27,7 @@
   <dependencies>
     <dependency>
       <groupId>com.example</groupId>
-      <artifactId>config</artifactId>
+      <artifactId>email</artifactId>
       <version>${project.version}</version>
     </dependency>
   </dependencies>

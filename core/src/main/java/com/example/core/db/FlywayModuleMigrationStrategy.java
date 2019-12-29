@@ -1,4 +1,4 @@
-package com.example;
+package com.example.core.db;
 
 import java.util.List;
 import org.flywaydb.core.Flyway;
